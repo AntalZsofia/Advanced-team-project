@@ -46,9 +46,9 @@ public class EventureContext : IdentityDbContext<User>
             );
     }
 
-    public static async Task Seed(EventureContext context, UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
+     public static async Task Seed(EventureContext context, UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
     {
-        // Seed locations
+        // Seed locationspublic
         if (!context.Locations.Any())
         {
             var fileName = "hu.csv";
