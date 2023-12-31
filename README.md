@@ -33,5 +33,5 @@ This is a app for creating events, joining existing events around you. It's a he
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-## About the project
+
 
